@@ -35,6 +35,7 @@ export default function Countries() {
         <div className="flagVisited">
             {visitedFlag.map((eachMap,indx)=><img key={indx} src={eachMap} alt="" />)}
         </div>
+        <hr />
       </div>
       <div className="sorting">
         {country.map((data) => (

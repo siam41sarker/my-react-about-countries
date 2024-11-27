@@ -14,8 +14,8 @@ export default function Country({info,visitedCountryHandling,flagVisitedInfo})
         console.log(info);
         const markFunction = ()=>
         {
-            flagVisitedInfo(info.flags.png)
             visitedCountryHandling(info);
+            flagVisitedInfo(info.flags.png)
             setIsDisabled(true);
         }
         return (

@@ -32,9 +32,12 @@
     background-color: #ddd;
     cursor:auto
 }
+
 .flagVisited{
-    display: flex;
-    gap:5px;
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    gap:10px;
+    max-width: 90%;
 }
 .flagVisited img{
     width:100px;
